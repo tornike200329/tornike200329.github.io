@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1><span>Geo</span>Movies</h1>
+      <div class="dropdown">
+        <button class="dropbtn">ჟანრი</button>
+        <div class="dropdown-content">
+          <a href="#">დრამა</a>
+          <a href="#">მძაფრსიუჟეტიანი</a>
+          <a href="#">ფანტასტიკა</a>
+          <a href="#">ფსიქოლოგიური</a>
+          <a href="#">სამეცნიერო ფანტასტიკა</a>
+          <a href="#">sci-fi</a>
+          <a href="#">ანიმაციური</a>
+          <a href="#">დეტექტივი</a>
+          <a href="#">დოკუმენტური</a>
+          <a href="#">სხვა</a>
+        </div>
+      </div>
+      <input
+        type="text"
+        name="search"
+        id="search"
+        placeholder="ჩაწერე ფილმის სახელი"
+      />
+      <img src="images/search.png" alt="" class="search" />
+
+      <p class="auth">ავტორიზაცია</p>
+      <img src="images/user.png" alt="" class="user" />
+    </header>
+
+    <!-- modal -->
+    <div class="modal hidden">
+      <img src="images/close.png" alt="" class="close" />
+      <div class="login">
+        <h3>შესვლა</h3>
+        <p>მომხმარებლის სახელი</p>
+        <input type="text" name="auth" id="auth" />
+        <p>მომხმარებლის პაროლი</p>
+        <input type="password" name="pass" id="pass" />
+
+        <input type="button" name="loginbtn" id="loginbtn" value="შესვლა" />
+      </div>
+      <div class="register">
+        <h3>ახლის შექმნა</h3>
+        <p>მომხმარებლის სახელი</p>
+        <input type="text" name="regauth" id="regauth" />
+        <p>მომხმარებლის პაროლი</p>
+        <input type="password" name="regpass" id="regpass" />
+        <p>მომხმარებლის მეილი</p>
+        <input type="email" name="regmail" id="regmail" />
+
+        <div class="gender">
+          <p>სქესი:</p>
+          <input type="radio" name="სქესი" id="man" />
+          <label for="man">მამაკაცი</label>
+          <input type="radio" name="სქესი" id="woman" />
+          <label for="woman">ქალი</label>
+        </div>
+        <input
+          type="button"
+          name="loginbtn"
+          id="loginbtn"
+          value="რეგისტრაცია"
+        />
+      </div>
+    </div>
+
+    <main>
+      <div class="movies">
+        <div class="movie">
+          <img src="images/movies/TSHR.jpg" alt="" />
+          <p>The Shawshank Redemption</p>
+        </div>
+        <div class="movie">
+          <img src="images/movies/thegodfather.jpg" alt="" />
+          <p>The Godfather</p>
+        </div>
+        <div class="movie">
+          <img src="images/movies/tdk.jpg" alt="" />
+          <p>The Dark Knight</p>
+        </div>
+        <div class="movie">
+          <img src="images/movies/12 Angry Men.jpg" alt="" />
+          <p>12 Angry Men</p>
+        </div>
+        <div class="movie">
+          <img
+            src="images/movies/The Lord of the Rings The Return of the King.jpg"
+            alt=""
+          />
+          <p>The Lord of the Rings: The Return of the King</p>
+        </div>
+        <div class="movie">
+          <img src="images/movies/pulpfiction.jpg" alt="" />
+          <p>Pulp Fiction</p>
+        </div>
+        <div class="movie">
+          <img src="images/movies/The Shining.jpg" alt="" />
+          <p>The Shining</p>
+        </div>
+        <div class="movie">
+          <img src="images/movies/A clockwork orange.jpg" alt="" />
+          <p>A clockwork orange</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- overlay -->
+    <div class="overlay hidden"></div>
+
+    <!-- script  -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

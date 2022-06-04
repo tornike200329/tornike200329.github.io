@@ -1,0 +1,26 @@
+$primary-color: #272727;
+$secondary-color: #ff625f;
+$text-color: #fff;
+$header-color: #a9a9a9;
+
+@function weights($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+@mixin flexHeader($direction) {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

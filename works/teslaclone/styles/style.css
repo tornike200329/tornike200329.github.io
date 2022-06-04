@@ -1,0 +1,108 @@
+@font-face {
+    font-family: tesla;
+    src: url(../fonts/TESLA.ttf);
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(../fonts/Gotham-Book.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/background.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+}
+
+
+header h3 {
+    font-family: tesla;
+    padding: 20px 50px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: gotham;
+    font-weight: 600;
+}
+
+header a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    left: 120px;
+    padding: 8px 10px;
+    border-radius: 1rem;
+}
+
+header a:hover {
+    background-color: rgba(0,0,0,.1);
+    color: black;
+}
+
+
+
+
+header .left {
+    position: relative;
+    left: 230px;
+    padding: 8px 10px;
+    border-radius: 1rem;
+}
+
+
+main {
+    font-family: gotham;
+}
+
+main h1 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+main p {
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+
+main a {
+    color: black;
+
+}
+
+
+
+main button {
+     position: relative;
+     text-align: center;
+     left: 450px;
+     top: 500px;
+     padding: 10px 50px;
+     border-radius: 1rem;
+     border: none;
+     font-family: gotham;
+     margin: 15px;
+     cursor: pointer;
+}
+
+.co {
+    color: white;
+    background-color: rgba(23, 26, 32, 0.8);
+    padding: 10px 60px;
+
+}

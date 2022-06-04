@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #272727;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+header a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  left: 0.5rem;
+  margin: 10px;
+  font-weight: bolder;
+}
+
+header h1 {
+  color: #a9a9a9;
+  margin: 10px;
+}
+
+header a:hover {
+  color: #ff625f;
+}
+
+.text {
+  color: #ff625f;
+}
+
+.home {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 200px;
+}
+
+.home .name {
+  font-size: 50px;
+  border-bottom: solid #fff;
+}
+
+.home .skillset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  margin: 20px;
+}
+
+.home img {
+  height: 50px;
+}
+
+.home .wd-img img {
+  position: relative;
+  top: 8rem;
+  height: 600px;
+}
+
+.home .icons_border {
+  position: relative;
+  background-color: #e1e0e0;
+  top: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 231px;
+  border-block: 8px solid black;
+}
+
+.home .icons {
+  height: 80px;
+  margin: 10px;
+}
+
+.about {
+  position: relative;
+  top: 40rem;
+  margin: 10px;
+  font-weight: bolder;
+  color: white;
+  padding: 20px;
+}
+
+.about h1 {
+  font-size: 40px;
+  color: #ff625f;
+}
+
+.about ul {
+  list-style: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 60rem;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #ff625f;
+}
+
+footer img {
+  position: relative;
+  right: 13rem;
+  height: 50px;
+  width: auto;
+}
+
+footer p {
+  position: relative;
+  right: 21rem;
+  font-size: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: blue;
+}
+
+.works {
+  position: relative;
+  top: 50rem;
+}
+
+.works h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #ff625f;
+}
+
+.works span {
+  position: absolute;
+  color: black;
+  font-weight: bolder;
+  top: 200px;
+  margin-left: 90px;
+  border-radius: 2rem;
+  z-index: 10;
+  padding: 10px 60px;
+  background: rgba(216, 0, 0, 0.5);
+}
+
+.works p {
+  position: relative;
+  padding: 20px;
+  font-size: 20px;
+  top: 200px;
+  color: #ff625f;
+}
+
+.works .git {
+  position: relative;
+  top: 80px;
+  left: 400px;
+  height: 100px;
+  width: auto;
+  border: none;
+}
+
+.works a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.works img {
+  position: relative;
+  height: 200px;
+  width: 400px;
+  margin: 30px;
+  top: 10rem;
+  border: 5px solid black;
+  border-radius: 100rem;
+  z-index: 5;
+}
+
+.works img:hover {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=main.css.map */

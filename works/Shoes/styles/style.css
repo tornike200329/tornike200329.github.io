@@ -1,0 +1,13 @@
+.carousel-item img {
+  height: 500px;
+  margin: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.carousel {
+  padding: 50px;
+}
